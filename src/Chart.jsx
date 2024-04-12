@@ -38,9 +38,12 @@ export default function SimpleAreaChart() {
                 />
             </Card>
             <Card sx={{ minWidth: 200, width:'22rem', marginTop: 1, marginLeft: 5,boxShadow: 5 ,textAlign:'center' }}>
-                    <div>Total Revenue</div>
+                    <div style={{fontSize:'16px',fontWeight:500,marginTop:10,marginBottom:10}}>Total Revenue</div>
                     <br></br>
                     <Progrss/>
+                    <div style={{fontWeight:500,color:'grey',marginTop:10}}>Total Sales Made Today</div>
+                    <div style={{margin:10,fontSize:'30px'}}>$420</div>
+                    <div style={{fontWeight:300,fontSize:'12px',color:'grey',marginTop:'20px',marginLeft:'15px',marginRight:'15px'}}>Previous Transaction Processing. Last Payment May not include</div>
             </Card>
 
             
